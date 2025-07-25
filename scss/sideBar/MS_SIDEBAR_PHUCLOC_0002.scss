@@ -1,0 +1,34 @@
+.gb-danhmuc-sidebar-ruouvang{
+  .widget-title-sidebar-ruouvang{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: $color-1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-main-ruouvang;
+  }
+  ul{
+    li{
+      a{
+        display:block;
+        font-size: 14px;
+        line-height: 2.57;
+        text-align: left;
+        color: #fff;
+        background: $color-main-ruouvang;
+        border-bottom: 1px solid  #ccc;
+        &:hover{
+          text-decoration: none;
+        }
+        span{
+          font-size: 10px;
+          margin-right: 7px;
+          color: $color-main-ruouvang;
+        }
+      }
+    }
+  }
+}

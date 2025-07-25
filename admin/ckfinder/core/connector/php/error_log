@@ -1,0 +1,1 @@
+[13-Feb-2019 07:30:51 UTC] PHP Warning:  mkdir(): File exists in /home/vinhome5/public_html/admin/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Backend/Adapter/Local.php on line 90

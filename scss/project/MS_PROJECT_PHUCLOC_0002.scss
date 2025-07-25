@@ -1,0 +1,71 @@
+.gb-khoduan_phucloc{
+  .gb-khoduan_phucloc-item{
+    margin-bottom: 30px;
+    &:hover{
+      .gb-khoduan_phucloc-item-image{
+        .gb-khoduan_phucloc-item-layer{
+          opacity: 1;
+        }
+      }
+    }
+    .gb-khoduan_phucloc-item-image{
+      position: relative;
+      border-radius: 5px;
+      width: 100%;
+      height: auto !important;
+      margin-bottom: 5px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 200px;
+      }
+      .gb-khoduan_phucloc-item-layer{
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/layout.png) no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+        opacity: 0;
+        transition: all 0.5s;
+        .gb-khoduan_phucloc-item-gia{
+          position: absolute;
+          top: 40%;
+          width: 100%;
+          text-align: center;
+          p{
+            color: #fff;
+            font-size: 18px;
+            margin: 0;
+          }
+          .gb-khoduan_phucloc-item-price{
+
+          }
+        }
+      }
+    }
+    .gb-khoduan_phucloc-item-info{
+      h3{
+        a{
+          display:  block;
+          font-size: 14px;
+          color: #543727;
+          text-transform: uppercase;
+        }
+      }
+      p{
+        font-size: 12px;
+        color: #363636;
+        line-height: 25px;
+        height: 50px;
+        overflow: hidden;
+        margin-top: 3px;
+      }
+    }
+  }
+}

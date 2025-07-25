@@ -1,0 +1,12 @@
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: email in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 5
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: phone in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 6
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: note in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 7
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: date in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 8
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: time in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 9
+[20-Dec-2018 16:06:14 UTC] PHP Notice:  Undefined index: shape in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 10
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: email in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 5
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: phone in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 6
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: note in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 7
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: date in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 8
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: time in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 9
+[07-Jan-2019 00:38:03 UTC] PHP Notice:  Undefined index: shape in /home/vinhome5/public_html/functions/ajax/dat_lich_hen.php on line 10

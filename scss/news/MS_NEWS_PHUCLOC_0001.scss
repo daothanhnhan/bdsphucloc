@@ -1,0 +1,149 @@
+.gb-page-blog_ruouvang-title{
+  margin-bottom: 30px;
+  background: #f1f1f1;
+  padding: 50px 0;
+  /* Default mode */
+  .tabbable-line > .nav-tabs {
+    text-align: center;
+    border: none;
+    margin: 0px;
+  }
+  .tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+    display: inline-block;
+    float: none;
+  }
+  .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+  }
+  .tabbable-line > .nav-tabs > li > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+    border-bottom: 4px solid #fbcdcf;
+  }
+  .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+    border: 0;
+    background: none !important;
+    color: #333333;
+  }
+  .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+    color: #a6a6a6;
+  }
+  .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+    margin-top: 0px;
+  }
+  .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
+  }
+  .tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #fff;
+    background: $color-main-ruouvang;
+    border-radius: 0;
+  }
+  .tabbable-line > .nav-tabs > li.active > a > i {
+    color: #404040;
+  }
+  .tabbable-line > .tab-content {
+    margin-top: -3px;
+    background-color: #fff;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  .portlet .tabbable-line > .tab-content {
+    padding-bottom: 0;
+  }
+}
+.gb-page-blog_ruouvang{
+  padding: 50px 0;
+  .gb-news-blog_ruouvang-item{
+    margin-bottom: 30px;
+    .gb-news-blog_ruouvang-item-img{
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      height: 257px;
+      @media screen and (max-width: 767px) {
+        height:  auto;
+      }
+      img{
+        width: 100%;
+        transition: all 0.5s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.1);
+          transition: all 0.5s;
+        }
+      }
+      .caption-large{
+        position: absolute;
+        bottom: 20px;
+        left:20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        min-width: 115px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #777777;
+      }
+    }
+    .gb-news-blog_ruouvang-item-text{
+      .gb-news-blog_ruouvang-item-title{
+        margin: 10px 0;
+        h3{
+          a{
+            display:  block;
+            font-size: 15px;
+            text-align: left;
+            color: #222222;
+            &:hover{
+              color: $color-main-ruouvang;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .gb-news-blog_ruouvang-item-text-des{
+        p{
+          font-size: 14px;
+          line-height: 22px;
+          text-align: left;
+          color: #7b7b7b;
+        }
+      }
+    }
+    .gb-news-blog_ruouvang-item-button{
+      margin-top: 30px;
+      .btn {
+        border-radius: 0;
+      }
+      .gb-btn-readmore {
+        background: $color-main-ruouvang;
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        &:hover{
+          background-color: white;
+          color: $color-main-ruouvang;
+          border: 1px solid $color-main-ruouvang;
+        }
+      }
+    }
+  }
+}

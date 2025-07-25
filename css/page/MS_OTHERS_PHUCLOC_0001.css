@@ -1,0 +1,49 @@
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li {
+  margin-right: 2px; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.open, .gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #fbcdcf; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.open > a, .gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.open > a > i, .gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.open .dropdown-menu, .gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #f3565d;
+  position: relative; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0; }
+
+.gb-giaithuong_phucloc .gb-giaithuong_phucloc-title .portlet .tabbable-line > .tab-content {
+  padding-bottom: 0; }
